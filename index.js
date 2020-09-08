@@ -1,3 +1,3 @@
-const regexs = require('./regex');
+const regexs = require('./regexs');
 
 module.exports = regexs

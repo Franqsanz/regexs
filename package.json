@@ -1,5 +1,5 @@
 {
-  "name": "Regexs",
+  "name": "regexs",
   "version": "1.0.0",
   "description": "Es un Paquete NPM de Expresiones Regulares, que construí con el objetivo de uso personal, pero cualquiera puede utilizarlo.",
   "main": "index.js",
