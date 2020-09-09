@@ -1,8 +1,9 @@
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 
 # Regexs
 
-Es un Paquete NPM de Expresiones Regulares, que construí con el objetivo de uso personal, pero cualquiera puede utilizarlo.
+Es un paquete NPM de Expresiones Regulares, que construí con el objetivo de uso personal, pero cualquiera puede utilizarlo.
 
 Voy a ir recopilando Expresiones Regulares con el tiempo.
 
@@ -20,6 +21,12 @@ $ npm install regexs
 
 ```js
 const regexs = require('regexs');
+// También pudes utilizar "Destructured Object"
+const { RxNumberCommas, RxRmAccents } = require('regexs');
+
+// O con import
+import regexs from 'regexs';
+import { RxNumberCommas, RxRmAccents } from 'regexs';
 
 // Agregar comas a cifras numéricas.
 // Por ejemplo:
