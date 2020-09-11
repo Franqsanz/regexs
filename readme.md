@@ -1,5 +1,6 @@
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
+![npm](https://img.shields.io/npm/dw/regexs)
 
 # Regexs
 
