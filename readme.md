@@ -1,6 +1,7 @@
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
-![npm](https://img.shields.io/npm/dw/regexs)
+![npm](https://img.shields.io/npm/v/regexs)
+![npm](https://img.shields.io/npm/dm/regexs)
 
 # Regexs
 
@@ -10,15 +11,13 @@ Voy a ir recopilando Expresiones Regulares con el tiempo.
 
 Si te gustaría contribuir para agregar algunas más, puedes hacer un PR. en [GitHub](https://github.com/Franqsanz/regexs). :)
 
-## Modo de uso
-
-#### Instalación
+## Instalación
 
 ```sh
 $ npm install regexs
 ```
 
-#### ¿Como utilizar este paquete?
+## Modo de uso
 
 ```js
 const regexs = require('regexs');
