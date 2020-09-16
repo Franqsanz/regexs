@@ -1,11 +1,12 @@
 {
   "name": "regexs",
-  "version": "1.0.0",
-  "description": "Es un Paquete NPM de Expresiones Regulares, que construí con el objetivo de uso personal, pero cualquiera puede utilizarlo.",
+  "version": "1.0.1",
+  "description": "Es un Paquete de Expresiones Regulares, que construí con el objetivo de uso personal, pero cualquiera puede utilizarlo.",
   "main": "index.js",
   "scripts": {},
   "keywords": [
-    "regex",
+    "Regex",
+    "Regexs",
     "JavaScript"
   ],
   "author": "Franco Andrés Sánchez <franqsanz.dev@gmail.com>",

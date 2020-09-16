@@ -5,7 +5,7 @@
 
 # Regexs
 
-Es un paquete NPM de Expresiones Regulares, que construí con el objetivo de uso personal, pero cualquiera puede utilizarlo.
+Es un paquete de Expresiones Regulares, que construí con el objetivo de uso personal, pero cualquiera puede utilizarlo.
 
 Voy a ir recopilando Expresiones Regulares con el tiempo.
 
@@ -22,29 +22,31 @@ $ npm install regexs
 ```js
 const regexs = require('regexs');
 // También pudes utilizar "Destructured Object"
-const { RxNumberCommas, RxRmAccents } = require('regexs');
+const { numberCommas, rmAccents } = require('regexs');
 
 // O con import
 import regexs from 'regexs';
-import { RxNumberCommas, RxRmAccents } from 'regexs';
+import { numberCommas, rmAccents } from 'regexs';
 
 // Agregar comas a cifras numéricas.
 // Por ejemplo:
-const numero = regexs.RxNumberCommas(50000);
+const numero = numberCommas(50000);
 console.log(numero); // 50,000
 
 // Quitar acentos.
 // Por ejemplo:
-const acentos = regexs.RxRmAccents('perfección');
+const acentos = rmAccents('perfección');
 console.log(acentos); // perfeccion
 ```
 
 #### Tipos de expresiones regulares disponibles:
 
-| Tipos              | Descripción                           |
-| ------------------ | ------------------------------------- |
-| `RxNumberCommas()` | Agregar comas a las cifras numéricas. |
-| `RxRmAccents()`    | Quitar acentos en los String.         |
+| Tipos                         | Descripción                           |
+| ----------------------------- | ------------------------------------- |
+| `numberCommas()`              | Agregar comas a las cifras numéricas. |
+| `rmAccents()`                 | Quitar acentos en los String.         |
+| `replaceSpaceScriptsMedium()` | Remplazar espacios por guiones medio. |
+| `replaceSpaceScriptsLow()`    | Remplazar espacios por guiones bajo.  |
 
 ## Licencia
 
