@@ -7,10 +7,10 @@ module.exports = {
   rmAccents: (x) => {
     return x.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
   },
-  replaceSpaceScriptsMedium: (x) => {
+  spaceScriptsMedium: (x) => {
     return x.replace(/\s/g, '-');
   },
-  replaceSpaceScriptsLow: (x) => {
+  spaceScriptsLow: (x) => {
     return x.replace(/\s/g, '_');
   }
 }
