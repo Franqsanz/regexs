@@ -12,5 +12,8 @@ module.exports = {
   },
   spaceScriptsLow: (x) => {
     return x.replace(/\s/g, '_');
+  },
+  escapeRg: (x) => {
+    return x.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
   }
 }

@@ -41,12 +41,13 @@ console.log(acentos); // perfeccion
 
 #### Tipos de expresiones regulares disponibles:
 
-| Tipos                  | Descripción                           |
-| ---------------------- | ------------------------------------- |
-| `numberCommas()`       | Agregar comas a las cifras numéricas. |
-| `rmAccents()`          | Quitar acentos en los String.         |
-| `spaceScriptsMedium()` | Remplazar espacios por guiones medio. |
-| `spaceScriptsLow()`    | Remplazar espacios por guiones bajo.  |
+| Tipos                  | Descripción                                                               |
+| ---------------------- | ------------------------------------------------------------------------- |
+| `numberCommas()`       | Agregar comas a las cifras numéricas.                                     |
+| `rmAccents()`          | Quitar acentos en los String.                                             |
+| `spaceScriptsMedium()` | Remplazar espacios por guiones medio.                                     |
+| `spaceScriptsLow()`    | Remplazar espacios por guiones bajo.                                      |
+| `escapeRg()`           | Escape de caracteres especiales que puden ser utilizados para el hacking. |
 
 ## Licencia
 
