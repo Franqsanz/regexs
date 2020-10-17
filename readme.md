@@ -39,20 +39,6 @@ const acentos = rmAccents('perfección');
 console.log(acentos); // perfeccion
 ```
 
-#### Regex para evitar ataques
-
-Esta regex de seguridad te ayuda a evitar el ataque **DDoS**, especialmente en un search de una aplicación.
-Remplazando los espacios por barras invertidas, también está regex puede colocar una barra invertida en símbolos como: `()`, `{}`, `[]`, etc.
-
-por ejemplo:
-
-```js
-const { escapeRg } = require('regexs');
-
-const regex = escapeRg('-s- attack DDoS{}');
-console.log(regex); // Salida -> \-s\-\ attack\ DDoS\{\}
-```
-
 #### Tipos de expresiones regulares disponibles:
 
 | Tipos                  | Descripción                                                                        |
@@ -61,7 +47,6 @@ console.log(regex); // Salida -> \-s\-\ attack\ DDoS\{\}
 | `rmAccents()`          | Quitar acentos en los String.                                                      |
 | `spaceScriptsMedium()` | Remplazar espacios por guiones medio.                                              |
 | `spaceScriptsLow()`    | Remplazar espacios por guiones bajo.                                               |
-| `escapeRg()`           | Escape del **DDoS Attack**, que pude ser utilizado en el search de una aplicación. |
 
 ## Licencia
 
